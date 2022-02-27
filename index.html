@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adam Asmaca</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="tool">
+
+            <div class="tree">
+                <div class="tree-bottom"></div>
+                <div class="tree-top"></div>
+                <div class="tree-right"></div>
+                <div class="tree-string"></div>
+                <div class="tree-circle"></div>
+            </div>
+
+
+            <div class="wrapper">
+                <div class="head" id="head"></div>
+                <div class="torso" id="torso"></div>
+                <div class="leftarm" id="leftarm"></div>
+                <div class="rightarm" id="rightarm"></div>
+                <div class="leftleg" id="leftleg"></div>
+                <div class="leftfoot" id="leftfoot"></div>
+                <div class="rightleg" id="rightleg"></div>
+                <div class="rightfoot" id="rightfoot"></div>
+            </div>
+
+        </div>
+
+        <div class="question-area">
+            <div class="answer-area" id="answer-area">
+
+            </div>
+            <div class="question">
+                <p>
+                <h3 class="text" id="question"></h3>
+                </p>
+                <div style="display: flex; align-items: center; justify-content: center; margin-top: 80px;">
+                    <input type="text" class="answer-text" name="" id="key">
+                    <button class="submit send" id="send" onclick="isThere();">Gönder</button>
+                    <button class="submit" onclick="start();" id="start">Başlat</button>
+                    <button class="submit send" onclick="againPlay();" id="again">Tekrar Oyna</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="Js/js.js" async defer></script>
+</body>
+
+</html>
